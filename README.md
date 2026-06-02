@@ -589,6 +589,31 @@ uv run python <script>.py
 
 Every `main.py` run is logged to `results/runs/<run_id>/`. W&B integration is built into the evolutionary search via `--wandb`.
 
+## Citation
+
+If you use this software or its results, please cite the associated paper:
+
+> J. Cruz-Benito, A. W. Cross, D. Kremer, and I. Faro,
+> "Evolutionary Discovery of Bivariate Bicycle Codes with LLM-Guided Search,"
+> arXiv:2606.02418 [quant-ph], 2026. https://arxiv.org/abs/2606.02418
+
+BibTeX:
+
+```bibtex
+@misc{cruzbenito2026qcodediscovery,
+  title         = {Evolutionary Discovery of Bivariate Bicycle Codes with LLM-Guided Search},
+  author        = {Cruz-Benito, Juan and Cross, Andrew W. and Kremer, David and Faro, Ismael},
+  year          = {2026},
+  eprint        = {2606.02418},
+  archivePrefix = {arXiv},
+  primaryClass  = {quant-ph},
+  doi           = {10.48550/arXiv.2606.02418},
+  url           = {https://arxiv.org/abs/2606.02418}
+}
+```
+
+A machine-readable [`CITATION.cff`](CITATION.cff) is also provided.
+
 ## License
 
 Apache License 2.0 — see [LICENSE](LICENSE) for details.
